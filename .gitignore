@@ -1,13 +1,4 @@
 
----
-
-# Passo 11 — criar o `.gitignore`
-
-No `.gitignore`, coloque:
-
-```gitignore
 .venv/
 __pycache__/
 *.pyc
-data/trusted/
-data/curated/
