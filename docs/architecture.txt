@@ -1,0 +1,25 @@
+[Raw Data: CSV / JSON / PDFs]
+            |
+            v
+      [Amazon S3 - Raw]
+            |
+            v
+   [AWS Glue / ETL Pipelines]
+            |
+            v
+     [S3 Trusted / Curated]
+            |
+      +-----+------------------+
+      |                        |
+      v                        v
+ [Amazon Athena]         [Amazon Bedrock]
+ SQL Analytics           Knowledge Base / RAG
+      |                        |
+      +-----------+------------+
+                  |
+                  v
+          [Amazon SageMaker]
+       Train / Evaluate / Deploy
+                  |
+                  v
+         [Dashboard / Data App]
